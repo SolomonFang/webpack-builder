@@ -1,6 +1,6 @@
 {
-  "name": "webpack-builder",
-  "version": "1.0.0",
+  "name": "build-webpack-chris",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,8 @@
   "scripts": {
     "test": "istanbul cover ./node_modules/.bin/_mocha",
     "eslint": "eslint ./lib --fix",
-    "build": "webpack --config ./lib/webpack.prod.js"
+    "build": "webpack --config ./lib/webpack.prod.js",
+    "republish": "publish"
   },
   "keywords": [],
   "author": "",
